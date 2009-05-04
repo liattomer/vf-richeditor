@@ -1,3 +1,4 @@
+#summary How To Use the Rich Editor component
 = How To Use =
 
 == Introduction ==
