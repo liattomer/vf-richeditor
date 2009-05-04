@@ -3,11 +3,27 @@
 
 == Introduction ==
 
-Microsoft-word like editing of text within [http://www.salesforce.com Salesforce.com] and [http://developer.force.com/gettingstarted the Force.com platform]. It is based on the open-source [http://www.fckeditor.net/ fckEditor] created by Frederico Caldeira Knabben. When implemented within a Visualforce page, the end user will have the ability to see and edit text including fonts, colors, alignment, bullets, links, images, and more.
+Microsoft-word like editing of text within [http://www.salesforce.com Salesforce.com] and the [http://developer.force.com/gettingstarted Force.com platform]. It is based on the open-source [http://www.fckeditor.net/ fckEditor] created by Frederico Caldeira Knabben. When implemented within a Visualforce page, the end user will have the ability to see and edit text including fonts, colors, alignment, bullets, links, images, and more.
+
+== Installing the Component ==
+
+After downloading richeditor.zip, unzip the contents to a temporary folder. Inside you will find four files described below: 
+
+The first file "fckeditor.zip" contains the implementation of the editor. You must upload this to Salesforce as a static resource. Please name the static resource "fckEditor".
+
+The second file is "richeditor.component". This is just a text file contained the code for the Visualforce component. Copy and past the contents of this file into a new Visualforce component called "RichEditor". Alternatively, you can drag and drop this file along with "richeditor.component-meta.xml" onto the "components" folder of a Force.com project inside the Force.com IDE to install it.
+
+The last file "how-to.txt" contains these instructions.
 
 == Using the Component ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+To use the Rich Editor component within a Visualforce page, simply declare the tag like while assigning a value property that is a text field.
+
+{{{
+<c:RichEditor value="{!account.Description}"/>
+}}}
+
+Other than the value attribute (required) there are two additional optional attributes:
+
+width - the width of the editor
+height - the height of the editor
