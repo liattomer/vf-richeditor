@@ -1,10 +1,10 @@
-#How to use this component
+= How To Use =
 
-= Introduction =
+== Introduction ==
 
 Microsoft-word like editing of text within [http://www.salesforce.com Salesforce.com] and [http://developer.force.com/gettingstarted the Force.com platform]. It is based on the open-source [http://www.fckeditor.net/ fckEditor] created by Frederico Caldeira Knabben. When implemented within a Visualforce page, the end user will have the ability to see and edit text including fonts, colors, alignment, bullets, links, images, and more.
 
-= How To Use =
+== Using the Component ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
