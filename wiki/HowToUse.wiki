@@ -27,3 +27,5 @@ Other than the value attribute (required) there are two additional optional attr
 
 width - the width of the editor
 height - the height of the editor
+
+The editor itself is highly configurable. Most of the configuration options can be changed via a file called "customconfig.js" inside the "fckeditor.zip" file. For more information on what options exist, consult the [http://docs.fckeditor.net/FCKeditor_2.x/Developers_Guide fckeditor developer's guide].
