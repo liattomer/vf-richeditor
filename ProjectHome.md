@@ -1,0 +1,1 @@
+The Rich Editor component is a [Visualforce component](http://wiki.developerforce.com/index.php/Visualforce) for Microsoft-word like editing of text within [Salesforce.com](http://www.salesforce.com) and [the Force.com platform](http://developer.force.com/gettingstarted).
